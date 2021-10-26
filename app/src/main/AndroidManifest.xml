@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoveToGo">
         <activity
+            android:name=".RestaurantRegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AssociationRegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SelectTypeRegisterActivity"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
