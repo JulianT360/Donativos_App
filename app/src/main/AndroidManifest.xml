@@ -4,19 +4,26 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/splash"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/splash"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoveToGo">
+        <activity
+            android:name=".RestaurantRegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AssociationRegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SelectTypeRegisterActivity"
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".login"
-            android:exported="true"
-            android:label="@string/title_activity_login"
-            android:theme="@style/Theme.LoveToGo.NoActionBar" />
+            android:name=".RegisterActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
