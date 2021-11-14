@@ -10,22 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoveToGo">
         <activity
-            android:name=".RestaurantRegisterActivity"
-            android:exported="true" />
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RestauranteActivity"
+            android:exported="false" />
         <activity
             android:name=".AssociationRegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".SelectTypeRegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

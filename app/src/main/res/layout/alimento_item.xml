@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="6dp"
+    card_view:contentPadding="4dp"
+    android:id="@+id/alimento_item">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/imagenAlimento"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/splash"/>
+
+        <TextView
+            android:id="@+id/nombreAlimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Alimento"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/imagenAlimento"
+            android:layout_toRightOf="@id/imagenAlimento"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/cantidadAlimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad"
+            android:layout_toEndOf="@id/imagenAlimento"
+            android:layout_toRightOf="@id/imagenAlimento"
+            android:layout_below="@id/nombreAlimento"/>
+
+        <TextView
+            android:id="@+id/caducidadAlimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caducidad"
+
+            android:layout_toEndOf="@id/imagenAlimento"
+            android:layout_toRightOf="@id/cantidadAlimento"
+            android:layout_below="@id/cantidadAlimento"/>
+
+        <TextView
+            android:id="@+id/categoriaAlimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categoria"
+            android:layout_toEndOf="@id/imagenAlimento"
+            android:layout_toRightOf="@id/imagenAlimento"
+            android:layout_below="@id/caducidadAlimento"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

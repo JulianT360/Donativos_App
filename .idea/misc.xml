@@ -4,16 +4,34 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/drawable/splash_screen.xml" value="0.37864583333333335" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_association_register.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_home.xml" value="0.3484375" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_restaurant_register.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_restaurante.xml" value="0.2617753623188406" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_select_type_register.xml" value="0.33" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_splash.xml" value="0.3625" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/activity_user_register.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/alimento_item.xml" value="0.23541666666666666" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_agregar_platillo.xml" value="0.26875" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_bottom_app.xml" value="0.20260416666666667" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_bottom_register.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_header_app.xml" value="0.25" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_header_register.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_inicio_sesion.xml" value="0.33" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_item.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_item_list.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_list_item.xml" value="0.3484375" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_list_items.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_lista.xml" value="0.25" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_lista_articulos.xml" value="0.20260416666666667" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_registro.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_registro_contacto.xml" value="0.3625" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_supplier_register.xml" value="0.3625" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/fragment_user_register.xml" value="0.3625" />
+        <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/layout/lista_alimentos.xml" value="0.5" />
         <entry key="..\:/Proyectos/LIDM/Donativos_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.37864583333333335" />
         <entry key="..\:/Proyectos/LIDM/app/src/main/res/layout/activity_login.xml" value="0.36186594202898553" />
         <entry key="..\:/Proyectos/LIDM/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />

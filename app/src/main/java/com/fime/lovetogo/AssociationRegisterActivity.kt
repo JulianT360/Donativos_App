@@ -27,7 +27,7 @@ class AssociationRegisterActivity : AppCompatActivity() {
         // Boton de regreso
         val btnUndo = findViewById<ImageView>(R.id.btnBack)
         btnUndo.setOnClickListener{
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, RestauranteActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -44,7 +44,7 @@ class AssociationRegisterActivity : AppCompatActivity() {
         val password = findViewById<EditText>(R.id.txtAssociationPassword)
         auth.createUserWithEmailAndPassword(email.text.toString(), password.text.toString())
             .addOnCompleteListener(this) { task ->
-                val intent = Intent(this, LoginActivity::class.java)
+                val intent = Intent(this, RestauranteActivity::class.java)
                 startActivity(intent)
                 if(task.isSuccessful) {
                     Toast.makeText(baseContext, "Su cuenta se ha registrado correctamente.",
