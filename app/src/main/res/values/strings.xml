@@ -18,15 +18,37 @@
     <string name="register_message">Selecciona la opción que mejor describe tu interés</string>
     <string name="register_association_type_button">Soy una asociación</string>
     <string name="register_restaurant_type_button">Soy un proveedor</string>
+    <string name="registro_continuar_datos_contacto">Registrar datos de contacto</string>
+
+    <!-- Registro contacto restaurante -->
+    <string name="registro_restaurante_contacto_mensaje">Continua tu registro dando de alta los datos de contacto</string>
+    <string name="registro_restaurante_contacto_calle">Calle</string>
+    <string name="registro_restaurante_contacto_colonia">Colonia</string>
+    <string name="registro_restaurante_contacto_numero">Número exterior</string>
+    <string name="registro_restaurante_contacto_numero_interno">Número interior</string>
+    <string name="registro_restaurante_contacto_codigo_postal">Código Postal</string>
+    <string name="registro_restaurante_contacto_municipio">Municipio</string>
+    <string name="registro_restaurante_contacto_estado">Estado</string>
 
     <!-- Registro de restaurante -->
     <string name="register_restaurant_name">Nombre del restaurante</string>
+    
+    <!-- Platillos -->
+    <string name="alimento_agregar_mensaje">Ingresa la informacion del alimento que deseas agregar</string>
+    <string name="alimento_agregar_nombre">Nombre</string>
+    <string name="alimento_agregar_cantidad">Cantidad</string>
+    <string name="alimento_agregar_caducidad">Caducidad</string>
+    <string name="alimento_agregar_categoria">Categoria</string>
+    <string name="alimento_agregar">Agregar</string>
 
     <!-- Registro de asociación -->
     <string name="register_instructions">Ingresa la información para crear tu cuenta</string>
     <string name="register_association_name">Nombre de la asociación</string>
     <string name="register_email">Correo electrónico</string>
+    <string name="registro_telefono">Teléfono</string>
     <string name="register_password">Contraseña</string>
     <string name="register_confirm_password">Confirmar contraseña</string>
     <string name="register_action_button">Crear Cuenta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

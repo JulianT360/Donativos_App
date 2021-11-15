@@ -7,11 +7,19 @@
     android:background="@color/colorPrimaryLight">
 
     <ImageView
-        android:id="@+id/btnBack"
+        android:id="@+id/btnHome"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="12dp"
-        android:src="@drawable/previous_icon"/>
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/btnLogout"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/logout" />
 
 </FrameLayout>

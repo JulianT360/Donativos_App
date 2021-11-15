@@ -8,7 +8,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView5"
-        android:name="com.fime.lovetogo.ui.register.HeaderRegisterFragment"
+        android:name="com.fime.lovetogo.fragments.register.HeaderRegisterFragment"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
