@@ -27,6 +27,10 @@ class AlimentoAdapter : RecyclerView.Adapter<AlimentoAdapter.ViewHolder>(){
         viewHolder.itemCantidad.text = "Cantidad: " + alimentos[i].cantidad.toString() + "Kg"
         viewHolder.itemCaducidad.text = "Caducidad: " + alimentos[i].caducidad
         viewHolder.itemImage.setImageResource(R.drawable.splash)
+
+        viewHolder.itemView.setOnClickListener() {
+
+        }
     }
 
     override fun getItemCount(): Int {
